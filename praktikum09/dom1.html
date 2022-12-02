@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum 9.1 </title>
+</head>
+<body>
+    <h1>menghitung luas dan keliling lingkaran</h1>
+
+    <span id="pi"></span>
+    <br>
+    <span id="jari"></span>
+    <br>
+    <span id="luas"></span>
+    <br>
+    <span id="keliling"></span>
+
+    <!--kode java script -->
+
+    <script>
+
+        const pi = 3.14
+        // buat fariabel jari-jari
+        let r = 14;
+        // rumus lingkaran
+        let L = pi * (r * r);
+
+        // rumus keliling lingkaran
+        let K = pi * (2*r);
+
+        document.getElementById("pi").innerHTML = "Phi : " + pi;
+        document.getElementById("jari").innerHTML = "Jari-jari : " + r;
+        document.getElementById("luas").innerHTML =  "luas lingkaran : " + L;
+        document.getElementById("keliling").innerHTML = "keliling lingkaran : " + K; 
+        </script>
+    
+</body>
+</html>
